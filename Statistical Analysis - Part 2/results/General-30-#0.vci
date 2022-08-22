@@ -1,0 +1,31 @@
+file 1824 1654104732                                            
+version 2
+run General-0-20220601-20:31:40-11904
+attr configname General
+attr datetime 20220601-20:31:40
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars $0=30
+attr iterationvarsf 30-
+attr measurement $0=30
+attr network Lab3
+attr processid 11904
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.num_of_hosts 10
+param **.test_ip_msgs 30
+param **.next_event_par 1.0/0.5
+param **.pck_len_mean 1000
+param **.pck_len_stddev 150
+param **.pck_len_min 26
+param **.pck_len_max 1480
+param **.host[*].eth.arp_ttl 100000s
+param **.aging_time 1s
+
+vector 0 Lab3.host[0].eth interarrivalTime:vector ETV
+attr interpolationmode none
+0	715 1107 163 396 0.636869241684 6.978067315834 30 0.02142050224 0.945901858357 6.978067315834 3.3897963905713
+
